@@ -1,0 +1,204 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 28px;
+    }
+
+
+    .content_flex,
+    .content_flex.margin
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 64px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo
+    {
+        font-size: 32px;
+    }
+
+    header .logo img
+    {
+        width: 40px;
+        margin: 0;
+    }
+
+    header .logo span
+    {
+        display: none;
+    }
+
+
+    header .phone
+    {
+        letter-spacing: 0;
+    }
+
+
+    header .callback_btn
+    {
+        width: 156px;
+        margin-left: 24px;
+
+        letter-spacing: 0;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        letter-spacing: 0;
+    }
+
+
+    .text_block .gallery .row
+    {
+        width: auto;
+        margin-left: 0;
+    }
+
+    .text_block .gallery .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .text_block img
+    {
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .home_content
+    {
+        column-gap: 0;
+        column-count: 1;
+    }
+
+
+
+    /*----------------
+        Production
+    ----------------*/
+    .production .row > * + *
+    {
+        margin-top: 28px;
+    }
+
+
+
+    /*------------
+        Videos
+    ------------*/
+    .videos
+    {
+        margin-top: 20px;
+    }
+
+
+    .videos .play
+    {
+        width: 132px;
+        height: 132px;
+        padding-left: 8px;
+    }
+
+    .videos .play .icon
+    {
+        transform: scale(.6);
+    }
+
+
+
+    /*-------------------
+        Photo gallery
+    -------------------*/
+    .photo_gallery .row
+    {
+        width: calc(100% + 16px);
+        margin-bottom: -16px;
+        margin-left: -16px;
+    }
+
+    .photo_gallery .row > *
+    {
+        width: calc(50% - 16px);
+        margin-bottom: 16px;
+        margin-left: 16px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .project .data
+    {
+        width: 324px;
+    }
+
+
+    .projects .project .image
+    {
+        margin-top: -193px;
+    }
+}

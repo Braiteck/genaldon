@@ -1,0 +1,195 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 100%;
+        --font_size: 15px;
+        --font_size_title: 32px;
+    }
+
+
+    .cont
+    {
+        padding: 0 24px;
+    }
+
+
+    .content_flex .content
+    {
+        width: 100%;
+        margin-top: 48px;
+    }
+
+    .content_flex .content.mob_padding
+    {
+        padding-top: 0;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 80px;
+    }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after
+    {
+        width: 20px;
+        height: 20px;
+
+        border-width: 2px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo
+    {
+        font-size: 36px;
+    }
+
+    header .logo img
+    {
+        width: 44px;
+    }
+
+
+    header .phone
+    {
+        font-size: 18px;
+
+        letter-spacing: -.01em;
+    }
+
+
+    header .callback_btn
+    {
+        width: 164px;
+        height: 40px;
+        margin-left: 28px;
+
+        letter-spacing: -.01em;
+    }
+
+
+
+    /*----------
+        Menu
+    ---------*/
+    .menu .head
+    {
+        font-size: 22px;
+
+        letter-spacing: -.01em;
+    }
+
+    .menu .head .sep
+    {
+        margin: 0 12px;
+    }
+
+
+    .menu .sub_menu
+    {
+        font-size: 22px;
+        line-height: 36px;
+
+        letter-spacing: -.01em;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        line-height: 25px;
+    }
+
+    .text_block > *
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .text_block h2
+    {
+        letter-spacing: -.01em;
+    }
+
+
+    .text_block ul li:before
+    {
+        top: 10px;
+    }
+
+
+
+    /*------------
+        Videos
+    ------------*/
+    .videos .play
+    {
+        width: 164px;
+        height: 164px;
+        padding-left: 10px;
+    }
+
+    .videos .play .icon
+    {
+        transform: scale(.7);
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .project .image
+    {
+        margin-top: -200px;
+        margin-left: 60px;
+    }
+
+
+    .projects .project .info
+    {
+        margin-left: 60px;
+    }
+}

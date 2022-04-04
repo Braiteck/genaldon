@@ -1,0 +1,246 @@
+@media print,
+(max-width: 1899px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 344px;
+        --font_size: 16px;
+        --font_size_title: 36px;
+    }
+
+
+    .cont
+    {
+        padding: 0 48px;
+    }
+
+
+    .content_flex.margin
+    {
+        margin-bottom: 120px;
+    }
+
+    .content_flex .content
+    {
+        width: calc(100% - var(--sidebar_width) - 48px);
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 32px 0;
+    }
+
+
+    header .logo
+    {
+        font-size: 44px;
+    }
+
+    header .logo img
+    {
+        width: 52px;
+        margin-right: 16px;
+    }
+
+
+    header .phone
+    {
+        font-size: 24px;
+
+        letter-spacing: -.03em;
+    }
+
+
+    header .callback_btn
+    {
+        width: 180px;
+        height: 48px;
+        margin-left: 48px;
+
+        letter-spacing: -.03em;
+    }
+
+
+
+    /*----------
+        Menu
+    ---------*/
+    .menu
+    {
+        margin-top: 28px;
+    }
+
+
+    .menu .head
+    {
+        font-size: 28px;
+
+        letter-spacing: -.03em;
+    }
+
+    .menu .head .sep
+    {
+        margin: 0 12px;
+    }
+
+
+    .menu .sub_menu
+    {
+        font-size: 28px;
+        line-height: 44px;
+
+        margin-top: 28px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title
+    {
+        margin-bottom: 32px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        line-height: 28px;
+    }
+
+    .text_block > *
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .text_block h2
+    {
+        letter-spacing: -.03em;
+    }
+
+    .text_block * + h2
+    {
+        margin-top: 52px;
+    }
+
+
+    .text_block ul li + li
+    {
+        margin-top: 8px;
+    }
+
+
+
+    /*------------------
+        Home content
+    ------------------*/
+    .home_content
+    {
+        height: 900px;
+    }
+
+
+    .home_content .layer1
+    {
+        width: 524px;
+    }
+
+    .home_content .layer2,
+    .home_content .layer3
+    {
+        width: 368px;
+    }
+
+    .home_content .layer4
+    {
+        width: 376px;
+    }
+
+    .home_content .layer5,
+    .home_content .layer6
+    {
+        width: 580px;
+    }
+
+    .home_content .layer7
+    {
+        width: 480px;
+    }
+
+
+
+    /*------------
+        Videos
+    ------------*/
+    .videos
+    {
+        margin-top: 0;
+    }
+
+
+    .videos .play
+    {
+        width: 220px;
+        height: 220px;
+        padding-left: 14px;
+    }
+
+    .videos .play .icon
+    {
+        transform: scale(.9);
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .project .title
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .projects .project .image
+    {
+        margin-top: -209px;
+        margin-left: 80px;
+    }
+
+
+    .projects .project .info
+    {
+        margin-left: 80px;
+    }
+}

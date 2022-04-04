@@ -1,0 +1,89 @@
+.swiper-button-next,
+.swiper-button-prev
+{
+    color: #41c06b;
+
+    z-index: 3;
+    top: 0;
+
+    display: block;
+
+    width: 135px;
+    height: 100%;
+    margin: auto;
+
+    transform: none;
+}
+
+.swiper-button-prev
+{
+    left: 0;
+}
+
+.swiper-button-next
+{
+    right: 0;
+}
+
+
+.swiper-button-next:before,
+.swiper-button-prev:before
+{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 261px;
+    height: 100%;
+
+    content: '';
+
+    opacity: .5;
+    background:    -moz-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-linear-gradient(left, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    background:         linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.swiper-button-next:before
+{
+    transform: rotate(180deg);
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: block;
+
+    width: 28px;
+    height: 28px;
+    margin: auto;
+
+    content: '';
+    transform: rotate(-45deg);
+
+    border-top: 3px solid;
+    border-left: 3px solid;
+}
+
+.swiper-button-next:after
+{
+    transform: rotate(-225deg);
+}
+
+
+
+.swiper-container-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-custom,
+.swiper-pagination-fraction
+{
+    display: none !important;
+}

@@ -1,0 +1,210 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 300px;
+        --font_size: 16px;
+        --font_size_title: 36px;
+    }
+
+
+    .cont
+    {
+        padding: 0 28px;
+    }
+
+
+    .content_flex.margin
+    {
+        margin-bottom: 100px;
+    }
+
+    .content_flex .content
+    {
+        width: calc(100% - var(--sidebar_width) - 32px);
+        padding-top: 52px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 24px 0;
+    }
+
+
+    header .logo
+    {
+        font-size: 40px;
+    }
+
+    header .logo img
+    {
+        width: 48px;
+    }
+
+
+    header .phone
+    {
+        font-size: 20px;
+
+        letter-spacing: -.02em;
+    }
+
+
+    header .callback_btn
+    {
+        height: 44px;
+        margin-left: 32px;
+
+        letter-spacing: -.02em;
+    }
+
+
+
+    /*----------
+        Menu
+    ---------*/
+    .menu
+    {
+        margin-top: 24px;
+    }
+
+
+    .menu .head
+    {
+        font-size: 24px;
+
+        letter-spacing: -.02em;
+    }
+
+    .menu .head .sep
+    {
+        margin: 0 10px;
+    }
+
+
+    .menu .sub_menu
+    {
+        font-size: 24px;
+        line-height: 40px;
+
+        margin-top: 24px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title
+    {
+        line-height: calc(var(--font_size_title) + 4px);
+
+        margin-bottom: 28px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 26px;
+
+        margin-bottom: 20px;
+
+        letter-spacing: -.02em;
+    }
+
+    .text_block * + h2
+    {
+        margin-top: 48px;
+    }
+
+
+
+    /*------------------
+        Home content
+    ------------------*/
+    .home_content
+    {
+        height: 720px;
+    }
+
+
+    .home_content .layer1
+    {
+        width: 444px;
+    }
+
+    .home_content .layer2,
+    .home_content .layer3
+    {
+        width: 320px;
+    }
+
+    .home_content .layer4
+    {
+        width: 324px;
+    }
+
+    .home_content .layer5,
+    .home_content .layer6
+    {
+        width: 500px;
+    }
+
+    .home_content .layer7
+    {
+        width: 412px;
+    }
+
+
+
+    /*--------------
+        Projects
+    --------------*/
+    .projects .project .data
+    {
+        width: 480px;
+    }
+
+
+    .projects .project .title
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .projects .project .image
+    {
+        margin-top: -178px;
+    }
+}
