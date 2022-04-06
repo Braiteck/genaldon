@@ -127,3 +127,34 @@ function onMouseWheel(e) {
 
 window.addEventListener('mousewheel', onMouseWheel, false)
 window.addEventListener('DOMMouseScroll', onMouseWheel, false)
+
+
+
+const initMap = () => {
+	ymaps.ready(() => {
+		let myMap = new ymaps.Map('map', {
+			center: [55.627310, 37.762821],
+			zoom: 16,
+			controls: []
+		})
+
+		// Кастомный маркер
+		let myPlacemark = new ymaps.Placemark([55.627310, 37.762821], {}, {
+			iconLayout: 'default#image',
+			iconImageHref: 'images/ic_map_marker.png',
+			iconImageSize: [61, 69],
+			iconImageOffset: [-22, -69]
+		})
+
+		myMap.geoObjects.add(myPlacemark)
+
+		myMap.controls.add('zoomControl', {
+			position: {
+				right: '20px',
+				top: '20px'
+			}
+		})
+
+		myMap.behaviors.disable('scrollZoom')
+	})
+}

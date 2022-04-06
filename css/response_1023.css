@@ -192,4 +192,71 @@
     {
         margin-left: 60px;
     }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .contacts_info .item + .item
+    {
+        margin-top: 50px;
+    }
+
+
+    .contacts_info .item .title
+    {
+        font-size: 22px;
+    }
+
+
+    .contacts_info .item .phone
+    {
+        font-size: 48px;
+    }
+
+    .contacts_info .item .phone span
+    {
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .contacts_info .item .phone + div
+    {
+        width: calc(100% - 380px);
+        margin-top: -4px;
+    }
+
+
+    .contacts_info .item .location,
+    .contacts_info .item .email
+    {
+        font-size: 19px;
+    }
+
+    .contacts_info .item .email
+    {
+        margin-top: 4px;
+    }
+
+
+    .contacts_info .map_wrap
+    {
+        position: relative;
+        right: 0;
+
+        width: calc(100% + 48px);
+        height: 552px;
+        margin-top: 50px;
+        margin-right: -24px;
+        margin-left: -24px;
+    }
 }

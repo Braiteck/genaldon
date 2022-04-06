@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#41c06b">
+		<meta name="theme-color" content="#41c06b">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1899.css" media="print, (max-width: 1899px)" async>
+		<link rel="stylesheet" href="css/response_1439.css" media="print, (max-width: 1439px)" async>
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<div class="cont row">
+						<a href="/" class="logo">
+							<img src="images/logo.png" alt="">
+							<span>GENALDON</span>
+						</a>
+
+						<div class="contacts">
+							<div class="phone">
+								<a href="tel:+74957839383">+ 7 495 783 93 83</a>
+							</div>
+
+							<button class="callback_btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+								<span>ПОЗВОНИТЬ</span>
+							</button>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="content_flex mob_no_margin">
+					<div class="cont row">
+						<aside>
+							<button class="menu_btn">
+								<span></span>
+							</button>
+
+							<nav class="menu">
+								<div class="head row">
+									<div><a class="active">Инфо</a></div>
+									<div class="sep">/</div>
+									<div><a href="/">Видео</a></div>
+									<div class="sep">/</div>
+									<div><a href="/">Контакты</a></div>
+								</div>
+
+								<div class="sub_menu" style="display: block;">
+									<div><a href="/">Наши проекты</a></div>
+									<div><a href="/">Производство камня</a></div>
+									<div><a href="/">Услуги</a></div>
+									<div><a href="/">Склад</a></div>
+									<div><a href="/">Фотогалерея</a></div>
+								</div>
+							</nav>
+						</aside>
+
+
+						<section class="content mob_padding">
+							<section class="contacts_info">
+								<div class="data">
+									<div class="item">
+										<div class="title">ОТДЕЛ ПРОДАЖ</div>
+
+										<div class="phone">
+											<a href="tel:+74957839383"><span>+7 495</span> 783 93 83</a>
+										</div>
+
+										<div>
+											<div class="location">Москва, ул. Красный октябрь, д. 21</div>
+
+											<div class="email">
+												<a href="mailto:welcome@genaldon.ru">welcome@genaldon.ru</a>
+											</div>
+										</div>
+									</div>
+
+
+									<div class="item">
+										<div class="title">ПРОИЗВОДСТВО</div>
+
+										<div class="phone">
+											<a href="tel:+74954320080"><span>+7 495</span> 432 00 80</a>
+										</div>
+
+										<div>
+											<div class="location">Владикавказ, ул. Ленина, д. 1</div>
+
+											<div class="email">
+												<a href="mailto:production@genaldon.ru">production@genaldon.ru</a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="map_wrap">
+									<div id="map">
+
+									</div>
+								</div>
+							</section>
+						</section>
+					</div>
+				</section>
+			</div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/parallaxify.min.js"></script>
+		<script src="js/mousetip.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+
+		<!-- Яндекс карты -->
+		<script src="http://api-maps.yandex.ru/2.1.75/?load=package.standard,package.geoObjects&lang=ru-RU"></script>
+		<script>
+			$(window).on('load', () => {
+				initMap()
+			})
+		</script>
+	</body>
+</html>

@@ -239,4 +239,51 @@
 
         margin-bottom: 28px;
     }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        width: 416px;
+    }
+
+
+    .contacts_info .item + .item
+    {
+        margin-top: 60px;
+    }
+
+
+    .contacts_info .item .title
+    {
+        font-size: 24px;
+    }
+
+
+    .contacts_info .item .phone
+    {
+        font-size: 52px;
+    }
+
+    .contacts_info .item .phone span
+    {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+
+    .contacts_info .item .location,
+    .contacts_info .item .email
+    {
+        font-size: 20px;
+    }
+
+
+    .contacts_info .map_wrap
+    {
+        width: calc(100% - 120px);
+    }
 }

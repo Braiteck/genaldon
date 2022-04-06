@@ -243,4 +243,56 @@
     {
         margin-left: 80px;
     }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        width: 600px;
+        margin-left: calc((var(--sidebar_width) + 48px) * -1);
+        padding-top: 380px;
+    }
+
+
+    .contacts_info .item .title
+    {
+        font-size: 32px;
+    }
+
+
+    .contacts_info .item .phone
+    {
+        font-size: 70px;
+    }
+
+    .contacts_info .item .phone span
+    {
+        font-size: 34px;
+        line-height: 42px;
+    }
+
+    .contacts_info .item .phone + div
+    {
+        width: 100%;
+        margin-top: 12px;
+    }
+
+
+    .contacts_info .item .location,
+    .contacts_info .item .email
+    {
+        font-size: 24px;
+    }
+
+
+    .contacts_info .map_wrap
+    {
+        right: -48px;
+
+        width: calc(100% - 240px);
+        height: calc(100% + 149px);
+    }
 }
